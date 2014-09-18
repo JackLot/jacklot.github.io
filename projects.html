@@ -1,0 +1,247 @@
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link type="text/css" href="styles/foundation.css" rel="stylesheet" />
+	<link type="text/css" href="styles/main.css" rel="stylesheet" />
+	<link type="text/css" href="styles/colorbox.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ 	<script src="js/jquery.colorbox-min.js"></script>
+
+</head>
+<body>
+
+	<script>
+		$(document).ready(function(){
+			$(".jlmad_photos").colorbox({rel:'jlmad_photos', scalePhotos: true, maxHeight: "95%"});
+			$(".nhs_photos").colorbox({rel:'nhs_photos', scalePhotos: true, maxHeight: "95%"});
+			$(".qrhunt_photos").colorbox({rel:'qrhunt_photos', scalePhotos: true, maxHeight: "95%"});
+			$(".umdevents_photos").colorbox({rel:'umdevents_photos', scalePhotos: true, maxHeight: "95%"});
+			$(".newsstand_photos").colorbox({rel:'newsstand_photos', scalePhotos: true, maxHeight: "95%"});
+			$(".surface_photos").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+		});
+	</script>
+
+	<div id="container">
+
+		<div id="header" class="row">
+
+			<div id="logo" class="small-2 medium-2 large-2 columns">
+				<a href="index.html">
+					<img src="img/logo.png" />
+				</a>
+			</div>
+
+		</div>
+
+		<div id="main_content" class="row">
+
+			<div id="navigation" class="small-2 medium-2 large-2 columns">
+
+				<ul id="nav_items">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="projects.html" class="selected">PROJECTS</a></li>
+					<li><a href="aboutme.html">ABOUT ME</a></li>
+					<li><a href="resume.html">RESUME</a></li>
+				</ul>
+
+			</div> 
+
+			<!-- START PAGE CONTENT -->
+
+			<div id="panelProjects" class="small-10 medium-10 large-10 columns contentArea">
+
+				<div class="separator"><h5>College</h5></div>
+
+				<!-- START PROJECT ******************************** -->
+				<div class="row project collapse">
+
+					<a name="umdevents"></a> 
+					
+					<div class="small-4 column">
+
+						<div class="single_thumbnail">
+							<a class="umdevents_photos" href="img/umdevents/thumbnail_large.jpg">
+								<img class="th" src="img/umdevents/thumbnail.jpg" />
+							</a>
+						</div>
+
+					</div>
+
+					<div class="small-8 column description">
+						<h4>UMD Events</h4>
+						<h6>For my honors college final project, I created a web application in Ruby on Rails 
+						which allows students to view events happening around campus. The application included user
+						sign up, email reminders, tags and searching. When a user signed up they can save events they
+						would like to remember to go to and even download their saved events to their calendar. Events
+						were populated through RSS feeds and user submitted content.<h6>
+					</div>
+
+				</div>
+				<!-- END PROJECT ******************************** -->
+
+				<!-- START PROJECT ******************************** -->
+				<div class="row project collapse">
+
+					<a name="newsstand"></a> 
+					
+					<div class="small-4 column">
+
+						<div class="single_thumbnail">
+							<a class="newsstand_photos" href="img/newsstand/thumbnail_large.jpg">
+								<img class="th" src="img/newsstand/thumbnail.jpg" />
+							</a>
+						</div>
+
+					</div>
+
+					<div class="small-8 column description">
+						<a class="live_link" href="http://newsstand.umiacs.umd.edu">(Visit site)</a>
+						<h4>NewsStand</h4>
+						<h6>I worked with professor and grad students on a NSF grant supported multi-platform system. The system read in news data from thousands
+							of RSS feeds and used various algorithms to display/group the stories on a map based interface. I worked primarily with Ruby, JavaScript and the Google Maps API
+							to develop features and fix bugs<h6>
+					</div>
+
+				</div>
+				<!-- END PROJECT ******************************** -->
+
+
+				<!-- START PROJECT ******************************** -->
+				<div class="row project collapse">
+
+					<a name="qrhunt"></a> 
+					
+					<div class="small-4 column">
+
+						<div class="single_thumbnail">
+							<a class="qrhunt_photos" href="img/qrhunt/thumbnail_large.jpg">
+								<img class="th" src="img/qrhunt/thumbnail.jpg" />
+							</a>
+						</div>
+
+					</div>
+
+					<div class="small-8 column description">
+						<a class="live_link" href="http://www.qrhunt.jlmad.com">(Visit site)</a>
+						<h4>QR Scavenger Hunt</h4>
+						<h6>A webapp created with PHP and MySql which used physical QR codes placed around campus
+						to create an interactive scavenger hunt. Students used their smartphones to find QR codes placed
+						around campus then entered them into the application to reveal the location of the next one.
+						The application included user signup and a leaderboard.<h6>
+					</div>
+
+				</div>
+				<!-- END PROJECT ******************************** -->
+
+				<div class="separator"><h5>High School</h5></div>
+
+				<!-- START PROJECT ******************************** -->
+				<div class="row project collapse">
+
+					<a name="jlmad"></a> 
+
+					<div class="small-4 column">
+
+						<div class="thumbnails row collapse">
+							<div class="small-3 column">
+								<a class="jlmad_photos" href="img/jlmad/square_1_large.jpg">
+									<div class="small_thumbnail"><img class="th" src="img/jlmad/square_1.jpg"></div></a>
+								<a class="jlmad_photos" href="img/jlmad/square_2_large.jpg">
+									<div class="small_thumbnail"><img class="th" src="img/jlmad/square_2.jpg"></div></a>
+								<a class="jlmad_photos" href="img/jlmad/square_3_large.jpg">
+									<div class="small_thumbnail"><img class="th" src="img/jlmad/square_3.jpg"></div></a>
+							</div>
+							<div class="small-9 column thumbnail">
+								<a class="jlmad_photos" href="img/jlmad/thumbnail_large.jpg">
+									<img class="th" src="img/jlmad/thumbnail.jpg" />
+								</a>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="small-8 column description">
+
+						<a class="live_link" href="http://www.jlmad.com">(Visit site)</a>
+						<h4>JL Media and Design</h4>
+						<h6>In high school I started to get into web design by learning the basics of HTML and CSS. After taking a class in web design my sophmore year, I
+							decided to try making websites for small businesses around my area. I created my first website for a chair caning business and founded JL Media and Design.
+							Through word of mouth I got commissioned to make websites for a couple other businesses during that time.<h6>
+					</div>
+
+				</div>
+				<!-- END PROJECT ******************************** -->
+
+
+				<!-- START PROJECT ******************************** -->
+				<div class="row project collapse">
+
+					<a name="nhs"></a> 
+
+					<div class="small-4 column">
+
+						<div class="single_thumbnail">
+							<a class="nhs_photos" href="img/nhs/thumbnail_large.jpg">
+								<img class="th" src="img/nhs/thumbnail.jpg" />
+							</a>
+						</div>
+
+					</div>
+
+					<div class="small-8 column description">
+
+						<h4>National Honor Society Application Webapp</h4>
+						<h6>Me and my partner were drawn attention to our NHS program application processor through our computer science professor. Teachers, evaluators and students were completing the application process using hundreds of peices of paper that needed to be passed around to multiple people. We developed this application in PHP using a MySQL datastore to replace the full application and review process. <h6>
+					</div>
+
+				</div>
+				<!-- END PROJECT ******************************** -->
+
+				<!-- START PROJECT ******************************** -->
+				<div class="row project collapse">
+
+					<a name="surface_photos"></a> 
+					
+					<div class="small-4 column">
+
+						<div class="single_thumbnail">
+							<a class="surface_photos" href="http://www.youtube.com/embed/RMOdUTvZldk">
+								<img class="th" src="img/surface/thumbnail.jpg" />
+							</a>
+						</div>
+
+					</div>
+
+					<div class="small-8 column description">
+
+						<a class="live_link" href="https://www.youtube.com/user/SurfaceClub">(View YouTube channel)</a>
+						<h4>Microsoft Surface Applications</h4>
+						<h6>During my junior and senior year of highschool, our school got involved with a special program with Microsoft where we got an
+							original Microsoft Surface touch-screen table to program apps for. Along with 2 of my friends, we started a club at school where we developed a Surface applications.
+							The apps were programmed mostly in C# and WPF. By the end of our senior year we had produced two larger scale applications: one for teacher conferencing and
+							an educational geography game: check them out on our <a href="https://www.youtube.com/user/SurfaceClub">YouTube channel</a>!<h6>
+					</div>
+
+				</div>
+				<!-- END PROJECT ******************************** -->
+
+			</div><!-- END PANEL PROJECTS-->
+
+			<!-- END PAGE CONTENT -->
+
+			<div id="footer" class="row">
+				<div class="small-2 column"></div>
+				<div class="small-10 column" id="footer_inner">
+					Have an idea for an interesting project or just want to pick my brain? Feel free to send along an email, I'd love to hear from you.<br />
+					<span class="footer_email">JackLotkowski@gmail.com</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link type="text/css" href="styles/foundation.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="flexslider/flexslider.css"/>
+	<link type="text/css" href="styles/main.css" rel="stylesheet" />
+
+	<link rel="shortcut icon" href="img/favicon.ico" />
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  	<script type="text/javascript" src="flexslider/jquery.flexslider-min.js"></script>
+
+</head>
+<body>
+
+	<script>
+		$(document).ready(function(){
+			
+			/*$('.carousel').slick({
+				autoplay: true,
+  				autoplaySpeed: 4000,
+  				dots: false,
+  				easing: 'linear'
+			});*/
+
+			$('.flexslider').flexslider({
+    			animation: "fade",
+    			animationLoop: true,
+    			slideshow: true,
+    			slideshowSpeed: 4200,
+    			easing: "swing"
+  			});
+
+			/*$('.c_slide').mouseenter(function(){
+				//$(this).find('.slide_info').fadeIn('fast');
+				$(this).find('.info_text').css('background-color', "rgba(0,0,0, 0.8)");
+			})
+			.mouseleave(function(){
+				//$(this).find('.slide_info').fadeOut('fast');
+				$(this).find('.info_text').css('background-color', "rgba(0,0,0, 0.5)");
+			});*/
+
+		});
+	</script>
+
+	<div id="container">
+
+		<div id="header" class="row">
+
+			<div id="logo" class="small-2 medium-2 large-2 columns">
+				<a href="index.html">
+					<img src="img/logo.png" />
+				</a>
+			</div>
+
+		</div>
+
+		<div id="main_content" class="row">
+
+			<div id="navigation" class="small-2 medium-2 large-2 columns">
+
+				<ul id="nav_items">
+					<li><a href="index.html" class="selected">HOME</a></li>
+					<li><a href="projects.html">PROJECTS</a></li>
+					<li><a href="aboutme.html">ABOUT ME</a></li>
+					<li><a href="resume.html">RESUME</a></li>
+				</ul>
+
+			</div> 
+
+			<!-- START PAGE CONTENT -->
+
+			<div id="panelHome" class="small-10 columns contentArea">
+
+				<div class="row">
+
+					<div class="small-3 column">
+						<img class="img_em" src="img/portrait.jpg">
+					</div>
+
+					<div class="small-9 column">
+
+						<h3>My name is Jack Lotkowski!</h3>
+						<h5>I'm a senior Computer Science major at the University of Maryland with a passion for software engineering and web development.</h5>
+						<h6>I've been programming since I was 14, and 
+							have amassed a bunch of interesting projects 
+							over the years: check them out by clicking through 
+							to the <a href="#">Projects page</a> of my website.
+							If you want to learn more about me and my background, you can find out on the <a href="#">About Me</a> page.<h6>
+					</div>
+
+				</div> 
+
+				<div class="homepage_focal">
+
+					<div>
+						<div class="separator" id="recent_proj_separator" style="margin-top: 40px;">
+							<div class="row">
+								<div class="small-6 column"><h5>Recent projects</h5></div>
+								<div class="small-6 column"><a href="projects.html" id="view_projects_btn" class="button radius small">View all my projects!</a></div>
+							</div>
+						</div>
+						<div class="carousel flexslider">
+
+							<ul class="slides">
+
+								<li><div class="c_slide" id="s_1">
+									<a href="projects.html#umdevents"><div class="slide_info">
+										<div class="info_text">
+											<div class="top_border"></div>
+											<h3>UMD Events</h3>
+											<h6>Ruby on Rails based webapp for viewing events happening around University of Maryland</h6>
+										</div>
+									</div></a>
+								</div></li>
+
+								<li><div class="c_slide" id="s_2">
+									<div class="slide_info">
+										<a href="projects.html#qrhunt"><div class="info_text">
+											<div class="top_border"></div>
+											<h3>QR Scavenger Hunt</h3>
+											<h6>PHP and MySQL based interactive scavenger hunt application using QR Codes</h6>
+										</div>
+									</div></a>
+								</div></li>
+
+								<li><div class="c_slide" id="s_3">
+									<a href="projects.html#newsstand"><div class="slide_info">
+										<div class="info_text">
+											<div class="top_border"></div>
+											<h3>NewsStand</h3>
+											<h6>Location based news searching using a map query interface</h6>
+										</div>
+									</div></a>
+								</div></li>
+
+							</ul>
+
+						</div>
+					</div>
+
+				</div>
+				
+			</div> <!-- END PANEL HOME -->
+
+			<!-- END PAGE CONTENT -->
+
+			<div id="footer" class="row">
+				<div class="small-2 column"></div>
+				<div class="small-10 column" id="footer_inner">
+					Have an idea for an interesting project or just want to pick my brain? Feel free to send along an email, I'd love to hear from you.<br />
+					<span class="footer_email">JackLotkowski@gmail.com</span>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
