@@ -147,6 +147,7 @@ body{
 
 .homepage_focal .carousel #s_1{
 	background-image: url('../img/umdevents/carousel.jpg');
+	background-position: 0 12%;
 }
 
 .homepage_focal .carousel #s_2{
